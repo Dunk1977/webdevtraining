@@ -1,28 +1,14 @@
-git init
-
-##used to initialize a new Git repository. When you run this command in a directory, Git sets up the necessary data structures and files to start version controlling your project in that directory. It essentially turns a regular directory into a Git repository.
-
-
-#Add 
-git add .
-
-##command is used to stage all changes in the current directory and its subdirectories for the next commit. It adds both new files and modifications to existing files to the staging area, preparing them to be included in the next commit.
-
-git commit -m "Initial commit"
-
-
-git config --global http.sslbackend schannel 
-git remote add origin <your-github-repository-url>
-
-##Yes, those two commands are indeed configuring Git and setting up a connection to a remote repository on GitHub.
-
-git push -u origin master
-##now this command will push my files to the github repository, I have defined in the previous step. 
-
-git add .
-git commit -m "Your commit message"
-git push
-
+## FOR CREATING A NEW REPOSITORY IN GIT
+1. Create a new project folder. You can create this folder using VSCode or through your file system.
+2. Open a terminal in the project folder:
+3. Run git init in the terminal:
+4. git init ##used to initialize a new Git repository. When you run this command in a directory, Git sets up the necessary data structures and files to start version controlling your project in that directory. It essentially turns a regular directory into a Git repository.
+5. git add .
+6. git commit -m "Initial Commit"
+7. create the repo in github and get the url
+8. git config --global http.sslbackend schannel 
+9. git remote add origin <your-github-repository-url>
+10. git push -u origin master
 
 
 #### TO BRING FILES TO A NEW COMPUTER
