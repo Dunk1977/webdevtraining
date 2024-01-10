@@ -13,8 +13,11 @@
 
 #### TO BRING FILES TO A NEW COMPUTER
 Clone the GitHub Repository:
+1. git clone https://github.com/Dunk1977/amad-portfolio
+
+
 1. git config --global http.sslbackend schannel
-2. git remote add origin https://github.com/Dunk1977/webdevtraining.git
+2. git remote add <origin> https://github.com/Dunk1977/webdevtraining.git #Change origin name to any other name, if there are more than one projects that you want to work at a time. 
 3. git clone https://github.com/Dunk1977/webdevtraining C:\path\to\your\directory
 4. code C:\path\to\your\directory (Adds to VSCode)
 5. start adding files and folders and changing files and folders as needed
