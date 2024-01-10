@@ -36,6 +36,14 @@ Clone the GitHub Repository:
 7. git commit -m "Your commit message"
 8. git push origin master
 
+### COMMANDS FOR THE ORIGINAL COMPUTER
+1. git pull origin master
+2. then i make changes in the files and folders. maybe add some new files. after that I run
+3. git add .
+4. git commit -m "Commit Message"
+5. git push origin master
+
+
 
 
 Navigate to the Cloned Repository:
