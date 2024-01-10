@@ -1,0 +1,70 @@
+##How to define an external css Selector
+    <head>
+    <meta charset="UTF-8">
+    <title>External</title>
+    <link rel="stylesheet" href="./style.css" />
+
+    </head>
+
+##Class Selector
+    <p class="note">1. The element selector targets elements based on their HTML tag name.</p>
+
+    .note {
+    font-size: 20px;
+    }
+
+##ID Selector
+    Only one per file. 
+    
+    <li class="note" id="id-selector-demo" value="3">ID selectors target elements based on the value of the id
+      attribute.</li>
+
+    #id-selector-demo {
+    color: green;
+    }
+
+##Attribute Selector
+    Only applies to an element where the particular attribute is defined
+
+    <p draggable="true">Drag Me</p>
+    <p>Don't drag me</p>
+
+    p[draggable]{
+        color: red;
+    }
+
+    p[draggable="true"]{
+        color: red;
+    }
+
+##Universal Selector
+    Applies to all elements
+    * {
+        color: red;
+    }
+
+##Sample
+    p{
+    color:red;
+    }
+
+    /*Class*/
+    .note{
+    font-size: 20px;
+    }
+
+
+    /*id*/
+    #id-selector-demo{
+    color: green;
+    }
+
+    /*element with property */
+    li[value="4"]{
+    color: blue; 
+    }
+
+    /*entire html*/
+    *{
+    text-align: center;
+    }

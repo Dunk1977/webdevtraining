@@ -1,0 +1,78 @@
+git init
+
+##used to initialize a new Git repository. When you run this command in a directory, Git sets up the necessary data structures and files to start version controlling your project in that directory. It essentially turns a regular directory into a Git repository.
+
+
+#Add 
+git add .
+
+##command is used to stage all changes in the current directory and its subdirectories for the next commit. It adds both new files and modifications to existing files to the staging area, preparing them to be included in the next commit.
+
+git commit -m "Initial commit"
+
+
+git config --global http.sslbackend schannel 
+git remote add origin <your-github-repository-url>
+
+##Yes, those two commands are indeed configuring Git and setting up a connection to a remote repository on GitHub.
+
+git push -u origin master
+##now this command will push my files to the github repository, I have defined in the previous step. 
+
+git add .
+git commit -m "Your commit message"
+git push
+
+
+
+#### TO BRING FILES TO A NEW COMPUTER
+Clone the GitHub Repository:
+1. git config --global http.sslbackend schannel
+2. git remote add origin https://github.com/Dunk1977/webdevtraining.git
+3. git clone https://github.com/Dunk1977/webdevtraining C:\path\to\your\directory
+4. code C:\path\to\your\directory (Adds to VSCode)
+5. start adding files and folders and changing files and folders as needed
+6. git add .
+7. git commit -m "Your commit message"
+8. git push origin master
+
+
+
+Navigate to the Cloned Repository:
+
+bash
+Copy code
+cd <repository-directory>
+Check Current Branch:
+
+bash
+Copy code
+git branch
+Create and Switch to a New Branch (Optional):
+
+bash
+Copy code
+git checkout -b NewFeatures
+Make Changes to Files:
+(Modify or add files as needed)
+
+Stage Changes:
+
+bash
+Copy code
+git add .
+Commit Changes:
+
+bash
+Copy code
+git commit -m "Your commit message"
+Push Changes to GitHub:
+
+bash
+Copy code
+git push -u origin NewFeatures
+Check Remote Branches:
+
+bash
+Copy code
+git branch -r
