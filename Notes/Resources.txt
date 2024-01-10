@@ -3,3 +3,14 @@ Helpful Links
 
 ##Reference for all the tags and CSS Selectors ##
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li
+
+
+##Color Names in HTML
+https://developer.mozilla.org/en-US/docs/Web/CSS/named-color
+
+##Color Slider
+https://www.csfieldguide.org.nz/en/interactives/rgb-mixer/
+
+## Color Pallettes
+https://colorhunt.co/
+
