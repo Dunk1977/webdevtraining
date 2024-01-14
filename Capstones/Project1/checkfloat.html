@@ -4,22 +4,44 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <style>
-        .container {
-            display: inline;
-            gap: 10px;
+        header,aside,main,footer {
+            border: 1px solid black;
         }
 
-        div {
-            display: inline;
+        #wrapper {
+            width: 80%;
+            min-width:340px;
+            max-width:100px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: aliceblue;
 
+        }
+
+        aside {
+            width: 33%;
+            box-sizing: border-box;
+            float: left;
+        }
+
+        main {
+            width: 67%;
+            float: right;
+            box-sizing: border-box;
         }
     </style>
 
 </head>
 <body>
-    <div class="one"><p>Block 1</p></div>
-    <div class="two"><p>Block 2</p></div>
-    <div class="three"><p>Block 3</p></div>
+    <div id="wrapper">
+
+        <header>Header</header>
+        <aside>Aside 1</aside>
+        <main>Main</main>
+        <aside>Aside 2</aside>
+        <aside>Aside 3</aside>
+        <footer>Footer</footer>
+    </div>
 
 </body>
 </html>
