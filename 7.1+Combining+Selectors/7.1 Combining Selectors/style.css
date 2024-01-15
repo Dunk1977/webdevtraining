@@ -17,7 +17,7 @@ li.done{
     color: seagreen;
 }
 
-ul p.done{
+ul .done{
     font-size: 0.5rem;
 
 }
