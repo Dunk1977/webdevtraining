@@ -17,3 +17,12 @@ https://colorhunt.co/
 ## A Complete Guide To FlexBox
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
+## JavaScript Writing
+https://github.com/rwaldron/idiomatic.js#naming
+
+## Creating flow charts
+https://draw.io 
+
+## coding horror blog
+https://blog.codinghorror.com
+
