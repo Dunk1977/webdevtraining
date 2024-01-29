@@ -1,0 +1,24 @@
+### CONSTRUCTOR FUNCTION - DECLARING AND CALLING ####
+
+function HouseKeeper(name, yearsOfExperience, cleaningSkills){
+
+    this.name = name;
+    this.yearsOfExperience = yearsOfExperience;
+    this.cleaningSkills = cleaningSkills;
+    this.clean = function () {
+        alert("Cleaning in progress");
+        
+    }
+}
+
+var hk1 = new HouseKeeper("Angela", "17", ["bathroom", "bedroom"])
+var hk2 = new HouseKeeper("Jane", "10", ["lobby", "kitchen"])
+
+console.log(hk2.cleaningSkills);
+hk1.clean();
+
+#### SETTING TIME DELAY ####
+    setTimeout(function() {
+        activeButton.classList.remove("pressed");
+    }, 100)
+
