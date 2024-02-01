@@ -23,6 +23,7 @@ function playSound(color){
 }; 
 
 function nextSequence() {
+
     color = getRandomColor();
     playSound(color);
     $("#"+color).fadeIn(100).fadeOut(100).fadeIn(100);
@@ -30,30 +31,39 @@ function nextSequence() {
 }
 
 $(".btn").click(function(event) {
-    var userChosenColour = event.target.id;
-    $("#"+userChosenColour).fadeIn(100).fadeOut(100).fadeIn(100);
-    playSound(userChosenColour);
-    // alert(userChosenColour);
-    userClickedPattern.push(userChosenColour);
-    alert(userClickedPattern.length);
-    alert(gamePattern.length);
-
-    if (userClickedPattern.length === gamePattern.length) {    
-        if (JSON.stringify(gamePattern) === JSON.stringify(userClickedPattern))
-        {
-            gameLevel = gameLevel + 1;
-            $("h1").text("Level " + gameLevel);
-
-            nextSequence();
-        }
-        else {
-            $("h1").text("You Lose!!!");
-            console.log(gamePattern);
-            console.log(userClickedPattern);
+    if ($("h1").text() !== "You Lose!!!") {
+        var userChosenColour = event.target.id;
+        $("#"+userChosenColour).fadeIn(100).fadeOut(100).fadeIn(100);
+        playSound(userChosenColour);
+    
+        userClickedPattern.push(userChosenColour);
+        console.log("User: " + userClickedPattern.length);
+        console.log("Game: " + gamePattern.length);
+    
+        if (userClickedPattern.length === gamePattern.length) {    
+            if (JSON.stringify(gamePattern) === JSON.stringify(userClickedPattern))
+            {
+                gameLevel = gameLevel + 1;
+                $("h1").text("Level " + gameLevel);
+                
+                setTimeout(function() { 
+                    nextSequence();
+                }, 1000);
+            }
+            else {
+                $("h1").text("You Lose!!!");
+                console.log(gamePattern);
+                console.log(userClickedPattern);
+                userClickedPattern = [];
+        
+        
+            }
+    
             userClickedPattern = [];
-    
-    
         }
+
     }
+
+
 })
 
