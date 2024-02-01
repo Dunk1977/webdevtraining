@@ -1,0 +1,14 @@
+#logical flow for the simon game. 
+
+Game Play:
+The simon game tests your memory on the sequence of buttons of various colors it presses. 
+
+On Level 1, once you start the game, a color will be pressed by Simon and you would be asked to press the same button. 
+On the next Level Simon will press (and hence add) a new button to the sequence. You would have to press the two buttons in the same sequence. 
+
+If you are able to do that, you will clear the level and move on to the next level. Where Simon will add a new button to the sequence.
+And will let you enter the sequence from the start. If you are able to, you move to the next level, otherwise the game is over and your score is displayed. 
+
+
+
+
