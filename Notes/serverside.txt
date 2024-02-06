@@ -1,0 +1,10 @@
+###HTML REQUESTS
+
+1. Request Resource (GET)
+2. Sending Resource (POST)
+3. Update Methods (PUT/PATCH)
+    . Replace the entire Resource (PUT)
+    . Replace the specific part in the Resource (PATCH)
+4. Delete Resource (DELETE)
+
+
