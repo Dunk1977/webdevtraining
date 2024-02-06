@@ -8,3 +8,6 @@
 4. Delete Resource (DELETE)
 
 
+#### INSTALL NODEMON
+npm install -g NODEMON
+
