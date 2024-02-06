@@ -1,0 +1,6 @@
+## To initialize NPM node package
+npm init 
+
+## HELPFUL RESOURCE
+npmjs.com
+
