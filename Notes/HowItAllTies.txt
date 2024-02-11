@@ -1,0 +1,6 @@
+So, your understanding seems to be accurate now. HTML provides static content, CSS adds styling, JavaScript (including jQuery) adds interactivity and dynamic behavior, Node.js allows server-side JavaScript execution, and Express.js simplifies building web applications with Node.js.
+
+
+
+
+
